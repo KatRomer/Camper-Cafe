@@ -1,0 +1,52 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf6ee;
+  color: #3c2f2f;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #a97c50;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#menu,
+#about {
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px dotted #ccc;
+}
+
+.flavor {
+  text-align: left;
+  font-weight: bold;
+}
+
+.price {
+  text-align: right;
+  color: #a97c50;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background-color: #f3e8d4;
+  margin-top: 2rem;
+}
